@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#dashboard{
+    background-color: black;
+    color: white;
+    height: 20%;
+    width: auto;
+    padding: 15px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#addnewRow{
+    margin: 22px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 0px 4px 0px;
+    width: 175px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#table{
+    margin: auto;
+    width: 97%;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tableheads {
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid black; 
+    font-weight: light;
+}
+
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 45px;
+}
+
+/* td:last-child{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 45px;
+} */
+
+#saveButton{
+    background-color: black;
+    color: white;
+    width: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
